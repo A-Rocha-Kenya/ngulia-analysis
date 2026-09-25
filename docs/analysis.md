@@ -1,5 +1,7 @@
 # Analysis structure
 
+These analyses consume the curated CSV files produced by [ngulia-dataset](https://github.com/A-Rocha-Kenya/ngulia-dataset). Paths below that begin with `data/`, `config/daily_covariates/`, or `scripts/curated/` refer to that repository. Set `NGULIA_DATASET_DIR` to its local checkout when running these scripts.
+
 Analyses are organized by scientific question. Scripts live in `scripts/analysis/` and write matching `tables/`, `models/`, and `figures/` folders under `outputs/analysis/`.
 
 | Order | Topic | Status |
