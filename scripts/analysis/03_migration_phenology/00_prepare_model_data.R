@@ -50,7 +50,7 @@ daily_coverage <- read_csv(
 # Define the comparable capture process ----------------------------------
 
 excluded_capture_groups <- read_csv(
-  file.path(paths$dataset_dir, "config", "analysis", "excluded_capture_groups.csv"),
+  file.path(paths$dataset_dir, "config", "daily_counts", "targeted_capture_groups.csv"),
   show_col_types = FALSE
 )
 
