@@ -38,7 +38,7 @@ daily_coverage <- read_csv(
 # Summarize annual catches ------------------------------------------------
 
 excluded_capture_groups <- read_csv(
-  file.path(project_dir, "config", "analysis", "excluded_capture_groups.csv"),
+  file.path(paths$dataset_dir, "config", "analysis", "excluded_capture_groups.csv"),
   show_col_types = FALSE
 )
 

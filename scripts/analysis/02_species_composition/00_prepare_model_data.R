@@ -55,7 +55,7 @@ daily_coverage <- daily_coverage_all |>
 # daytime process. They are excluded from both focal species and the daily
 # comparison total.
 excluded_capture_groups <- read_csv(
-  file.path(project_dir, "config", "analysis", "excluded_capture_groups.csv"),
+  file.path(paths$dataset_dir, "config", "analysis", "excluded_capture_groups.csv"),
   show_col_types = FALSE
 )
 
