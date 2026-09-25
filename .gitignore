@@ -1,0 +1,14 @@
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.vscode/
+.positron/
+.Renviron
+.env
+.env.*
+!.env.example
+outputs/
+Rplots.pdf
+*.log

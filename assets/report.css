@@ -1,0 +1,21 @@
+body { max-width: 1040px; margin: 32px auto; padding: 0 22px; font: 16px/1.52 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #24343a; }
+h1, h2, h3 { color: #173f56; }
+h1 { margin-bottom: 4px; }
+h2 { margin-top: 36px; }
+h3 { margin-top: 27px; margin-bottom: 4px; }
+.lead, .lede { color: #52666f; margin-top: 0; font-size: 18px; }
+.equation { padding: 12px 15px; margin: 10px 0; background: #f1f6f8; border-left: 4px solid #176d7a; font-family: Georgia, serif; font-size: 17px; overflow-x: auto; }
+.note, .caution { background: #fff7e6; padding: 12px 15px; border-left: 4px solid #d5942a; }
+.result { background: #edf7f4; padding: 12px 15px; border-left: 4px solid #287d6b; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 8px; border-bottom: 1px solid #d9e2e6; text-align: left; vertical-align: top; }
+th { background: #eef4f6; }
+img, .figure { display: block; max-width: 100%; height: auto; margin: 10px auto 24px; }
+.figure { width: min(100%, 960px); }
+.wide { width: 100%; }
+code { background: #eef4f6; padding: 2px 4px; }
+a { color: #176d7a; }
+@media(max-width: 700px) {
+  body { margin: 18px auto; }
+  table { font-size: 12px; display: block; overflow-x: auto; }
+}
